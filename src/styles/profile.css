@@ -1,0 +1,16 @@
+div .profile-data-container {
+    background-color: #2c2b2b;
+    border-top-style: solid;
+    border-color: #fff;
+}
+
+div .profile-data-container .profile-data {
+    padding: 10px 20px;
+}
+div .profile-data-container .profile-data h2 , div .profile-data-container .profile-data h4 {
+    color: #fff;
+}
+
+div .profile-data-container .profile-data p {
+    color: #fff;
+}

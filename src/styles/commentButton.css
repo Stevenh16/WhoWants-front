@@ -1,0 +1,47 @@
+.comment-button-container{
+    display: flex;
+    flex-direction: column; /* Asegura que las publicaciones estén en columna */
+    align-items: center; /* Centra el contenedor en la página */
+    max-width: 600px; /* Ancho máximo del feed */
+    width: 100%; /* Asegura que el contenedor sea responsive */
+}
+
+.comment-button-container .comment-form{
+    display: flex;
+    flex-direction: column; /* Asegura que las publicaciones estén en columna */
+    align-items: center; /* Centra el contenedor en la página */
+}
+
+.comment-button-container .comment-form label {
+    color:#fff;
+}
+
+.comment-button-container .comment-form label select {
+    margin-left: 5px;
+    background-color: #F0F8FF;
+    color: #2c2b2b;
+    border-radius: 25px;
+}
+
+.comment-button-container .comment-form .comment-label {
+    font-size: 12px;
+}
+
+.comment-button-container .comment-form .comment-label input{
+    background-color: #F0F8FF;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: rgb(118,118,118);
+}
+
+.comment-button-container .comment-form .comment-label input{
+    background-color: #F0F8FF;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: rgb(118,118,118);
+    padding: 0px 10px;
+    font-style: italic;
+    color: #2c2b2b;
+}

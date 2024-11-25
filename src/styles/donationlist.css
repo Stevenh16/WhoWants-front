@@ -1,0 +1,10 @@
+.donation-list {
+    display: flex;
+    flex-direction: column; /* Asegura que las publicaciones estén en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin: 15px auto; /* Centra el contenedor en la página */
+    padding: 20px; /* Espaciado interno */
+    max-width: 600px; /* Ancho máximo del feed */
+    width: 100%; /* Asegura que el contenedor sea responsive */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}

@@ -1,0 +1,52 @@
+.icon-button {
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    padding: 10px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon-button .icon {
+    font-size: 24px;
+    color: #fff; 
+}
+
+/* Cambiar apariencia al pasar el mouse */
+.icon-button:hover .icon {
+    color: #568203; /* Cambia a azul al pasar el mouse */
+    transform: scale(1.2); /* Aumenta el tamaño ligeramente */
+}
+
+.bar-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Debajo del botón */
+    right: 0; /* Alineado al lado derecho del botón */
+    background-color: #F0F8FF;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 8px 0;
+    margin: 0;
+    z-index: 1000;
+    width: 150px;
+}
+
+.dropdown-menu li {
+    padding: 10px 16px;
+    color: #2c2b2b;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-menu li:hover {
+    background-color: #2c2b2b;
+    color: #568203;
+}
